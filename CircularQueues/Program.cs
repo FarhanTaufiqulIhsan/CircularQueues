@@ -46,7 +46,7 @@ namespace CircularQueues
         public void remove()
         {
             /*Checks whether the queue is empty. */
-            if (FRONT == 0)
+            if (FRONT == -1)
             {
                 Console.WriteLine("Queue underflow\n");
                 return ;
