@@ -41,6 +41,8 @@ namespace CircularQueues
                      increment by one. */
                     REAR = REAR + 1;
             }
+            /* Once the position of REAR is detemined, the element is added at
+              its proper place. */
             queue_array[REAR] = element;
         }
         public void remove()
